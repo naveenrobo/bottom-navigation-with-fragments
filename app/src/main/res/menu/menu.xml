@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/status"
+        android:title="Status"
+        android:tooltipText="Status"
+        android:icon="@drawable/ic_robot"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tables"
+        android:title="Tables"
+        android:icon="@drawable/ic_food_tray"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always" />
+
+</menu>
